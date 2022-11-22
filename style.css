@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    overflow-x: hidden;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+.logo
+{
+    width: 100px;
+    padding: 25px 0;
+}
+.div2
+{
+    padding: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #f01f0c;
+}
+.div2 h1
+{
+    font-size: 30px;
+}
+
+.group-no h1
+{
+    text-align: center;
+    font-size: 50px;
+    padding: 40px 0;
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+.user
+{
+    width: 250px;
+    height: 250px; 
+    border-radius: 20px;
+}
+.text1
+{
+    padding: 7% 0;
+    font-size: 20px;
+    width: 20%;
+}
+.text2 
+{
+    font-size: 25px;
+    line-height: 60px;
+    width: 20%;
+}
+
+@media (max-width:799px)
+{
+    .header
+    {
+        padding: 20px 15px;
+    }
+    .logo
+    {
+        padding: 0;
+    }
+    .div2
+    {
+        font-size: 10px;
+        padding: 0;
+    }
+    .div2 h1
+    {
+        font-size: 19px;
+    }
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .text1, .text2
+    {
+        width: 100%;
+    }
+}
